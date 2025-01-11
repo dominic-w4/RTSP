@@ -1,0 +1,31 @@
+# RTSP-URL der Kamera
+rtsp_url: ""
+
+# Verzeichnis für die Videoausgabe
+video_output_dir: ""
+
+# Empfindlichkeit der Bewegungserkennung
+motion_sensitivity: 5000
+
+# Maximale Speichernutzung in GB
+max_storage_gb: 10
+
+# Koofr-Anmeldedaten
+koofr_username: ""
+koofr_password: ""
+
+# Verzögerung, bevor die Aufnahme nach Bewegungsende stoppt (in Sekunden)
+motion_end_delay: 10
+
+# Telegram-Bot-Konfiguration
+telegram_bot_token: ""
+telegram_chat_id: ""
+
+# Videoeinstellungen
+video_frame_rate: 15  # Bildrate in FPS
+video_resolution_width: 640  # Auflösung Breite
+video_resolution_height: 480  # Auflösung Höhe
+
+# Systemressourcen-Schwellenwerte
+cpu_usage_threshold: 90  # CPU-Auslastung in %
+memory_usage_threshold: 90  # RAM-Auslastung in %
